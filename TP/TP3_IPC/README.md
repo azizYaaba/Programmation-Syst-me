@@ -1,4 +1,4 @@
-# TP4 – Communication entre processus (IPC)
+# TP3 – Communication entre processus (IPC)
 
 ## 🎯 Objectif
 Mettre en place la communication **père ↔ fils** via 3 mécanismes IPC : **pipe**, **file de messages System V**, **mémoire partagée + sémaphore**.
