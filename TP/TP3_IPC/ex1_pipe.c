@@ -20,7 +20,7 @@ int main(void) {
 
     if (pid == 0) {
         // --- FILS : lecture ---
-        close(fd[1]); // ne garde pas l'écriture
+        //close(fd[1]); // ne garde pas l'écriture
         char buf[256] = {0};
         ssize_t n = read(fd[0], buf, sizeof(buf)-1);
         if (n < 0) { perror("read"); return 1; }
